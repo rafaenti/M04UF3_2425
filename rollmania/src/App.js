@@ -2,6 +2,7 @@ import './App.css';
 import Title from './Title.js';
 import Dice from './Dice.js';
 import RollButton from './RollButton.js';
+import PlayerName from './PlayerName.js';
 
 
 
@@ -19,6 +20,7 @@ function App() {
   return (
 		<div className="rollmania">
 			<Title title_text="Rollmania!!!" />
+			<PlayerName />
 	    <main className="App">
 				<Dice cantidad="5" roll={roll} />
     	</main>

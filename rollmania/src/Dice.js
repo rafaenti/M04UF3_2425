@@ -14,7 +14,7 @@ function Dice(props) {
 
 	function add_result (value) {
 		total.current += value;
-		console.log(value+" "+total.current);
+		//console.log(value+" "+total.current);
 
 		counter.current++;
 		if (counter.current == props.cantidad){

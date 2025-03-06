@@ -19,7 +19,7 @@ function PlayerName(props) {
 	} );
 
 	function update_name (event) {
-		console.log(event.target.value);
+		//console.log(event.target.value);
 		setPlayerName(event.target.value);
 	}
 
